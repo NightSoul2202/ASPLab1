@@ -1,0 +1,18 @@
+﻿@* @model IEnumerable<ASPLab1.Models.CompanyModel> *@
+@model int
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    @* @foreach (var item in Model){
+        <p>@item.Id</p>
+        <p>@item.Name</p>
+        <p>@item.Description</p>
+        <p>@item.Capitalization</p>
+    } *@
+
+    <p>@Model</p>
+</div>
